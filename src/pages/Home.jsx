@@ -47,9 +47,8 @@ const Home = () => {
 
             <div className='container section grid grid-cols-2 gap-2 align-center experience'>
 
-                <div className='flex justify-end'>
+                <div className='flex justify-end cont-img-exp'>
                     <img className='mr-4' src="img/img4.jpg" alt="img 2" />
-
                 </div>
 
 
