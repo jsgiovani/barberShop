@@ -874,6 +874,8 @@ footer{
 
 
 
+
+
 .worktime h3{
     margin-top: 4rem;
 }
@@ -909,12 +911,15 @@ footer{
     color: var(--white);
 }
 
-
-.form-subscribe button{
+.form-subscribe input[type=submit]{
     background-color: var(--brown-ligth);
-    border-radius: 0;
-    font-size: 1.8rem;
+    border: none;
     text-transform: uppercase;
+    color: var(--white);
+    padding: 0 1rem;
+    cursor: pointer;
+    
+
 }
 
 /* ABOUT */
