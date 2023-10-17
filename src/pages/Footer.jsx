@@ -34,9 +34,7 @@ const Footer = () => {
             <p className='mb-4'>Subscribe to take advantage of our campaigns and gift certificates.</p>
             <form className='form-subscribe'>
                 <input className='unset input' type="email" name="email" id="email" placeholder='Your email' />
-                <button className='btn subscribe-btn' type="submit">
-                    Subscribe
-                </button>
+               
             </form>
         </section>
 
