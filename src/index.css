@@ -910,6 +910,13 @@ footer{
     color: var(--white);
 }
 
+@media (min-width: 768px){
+    .form-subscribe input[type=email]{
+       flex: 1;
+    }
+    
+}
+
 .form-subscribe input[type=submit]{
     background-color: var(--brown-ligth);
     border: none;

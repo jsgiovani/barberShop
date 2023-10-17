@@ -29,7 +29,7 @@ const Footer = () => {
         </section>
 
 
-        <section className='footer-section container'>
+        <section className='footer-section'>
             <h3>Subscribe</h3>
             <p className='mb-4'>Subscribe to take advantage of our campaigns and gift certificates.</p>
             <form className='form-subscribe'>
