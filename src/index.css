@@ -903,10 +903,10 @@ footer{
 }
 
 
-.form-subscribe .input{
+.form-subscribe input[type=email]{
     flex: 1;
-    padding: 1rem;
-
+    padding: 1rem 0 1rem 1rem;
+    padding-right: 0;
     background-color: var(--secoundary-color);
     color: var(--white);
 }
@@ -918,8 +918,6 @@ footer{
     color: var(--white);
     padding: 0 1rem;
     cursor: pointer;
-    
-
 }
 
 /* ABOUT */
