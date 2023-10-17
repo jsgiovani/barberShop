@@ -33,9 +33,10 @@ const Footer = () => {
             <h3>Subscribe</h3>
             <p className='mb-4'>Subscribe to take advantage of our campaigns and gift certificates.</p>
             <form className='form-subscribe'>
-                <input className='unset input' type="email" name="email" id="email" placeholder='Your email' />
-                <input type="submit" value="Subscribe" />
-               
+                <div className='flex form-newslatter'>
+                    <input className='unset flex-1' type="email" name="email" id="email" placeholder='Your email' />
+                    <input type="submit" value="Subscribe" />
+                </div>
             </form>
         </section>
 

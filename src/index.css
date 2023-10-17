@@ -898,13 +898,12 @@ footer{
 
 
 .form-subscribe{
-    display: flex;
     border: 1px solid var(--brown-ligth);
 }
 
 
 .form-subscribe input[type=email]{
-    flex: 1;
+    width: 75%;
     padding: 1rem 0 1rem 1rem;
     padding-right: 0;
     background-color: var(--secoundary-color);
