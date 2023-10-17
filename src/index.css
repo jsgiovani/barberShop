@@ -1023,8 +1023,12 @@ footer{
 
 }
 
-.price-sparce{
-    margin: 2rem 4rem;
+
+@media (min-width: 768px){
+    .price-sparce{
+        margin: 2rem 4rem;
+    }
+    
 }
 
 /* Gallery */
